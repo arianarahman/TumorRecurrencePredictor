@@ -1,6 +1,6 @@
 ### Ariana Tumor Recurrence Project
 ### Aime for mrna and cna data, confounders = ER status, n_components = 150
-### setwd("/Users/Raghav/Pine Biotech/Research Fellows/Ariana/ISEF 2023/AIME-related-main/BRCA_AR_main/")
+### setwd("C:/Users/arian/Documents/git/TumorRecurrencePredictor/data")
 
 
 library(AIME)
@@ -16,9 +16,7 @@ library(e1071)
 library(CancerSubtypes)
 
 ## Set the working directory to the data folder
-#setwd("C:/Users/miz_r/Documents/Ariana/ScienceFair2022-2023/BRCA_AR/BRCA_AR")
-setwd("/Users/Raghav/Pine Biotech/Research Fellows/Ariana/ISEF 2023/AIME-related-main/BRCA_AR_main/")
-temp.path<-"/Users/Raghav/Pine Biotech/Research Fellows/Ariana/ISEF 2023/AIME-related-main/BRCA_AR_main/temp"
+setwd("C:/Users/arian/Documents/git/TumorRecurrencePredictor/data")
 source('fdrgamma.r')
 
 ### Load gene expression table

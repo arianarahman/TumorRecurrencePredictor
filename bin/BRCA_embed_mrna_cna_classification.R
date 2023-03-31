@@ -1,7 +1,7 @@
 ### Ariana Tumor Recurrence Project
 ### Load Aime output for mrna and cna data, confounders = ER status, n_components = 150
 ### Random Forest Classification algorithm comparisons
-### setwd("/Users/Raghav/Pine Biotech/Research Fellows/Ariana/ISEF 2023/AIME-related-main/BRCA_AR_main/")
+### setwd("C:/Users/arian/Documents/git/TumorRecurrencePredictor/data")
 
 
 ### Classification Algorithm
@@ -12,7 +12,7 @@ library(BBmisc)
 library(pROC)
 
 ### set the working directory to the data folder
-setwd("/Users/Raghav/Pine Biotech/Research Fellows/Ariana/ISEF 2023/AIME-related-main/BRCA_AR_main/")
+setwd("C:/Users/arian/Documents/git/TumorRecurrencePredictor/data")
 
 #####  Load clinical data and sample order from gene expression data
 clin <- read.table("clinical_data_select.txt", header = TRUE, sep = "\t", row.names = 1)

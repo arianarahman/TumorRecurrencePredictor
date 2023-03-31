@@ -1,6 +1,6 @@
 ### Ariana Tumor Recurrence Project
 ### BRCA datasets from CBioportal exploratory analysis
-### setwd("/Users/Raghav/Pine Biotech/Research Fellows/Ariana/ISEF 2023/Data Exploration")
+### setwd("C:/Users/arian/Documents/git/TumorRecurrencePredictor/data")
 
 library(tidyverse)
 library(ggfortify)
@@ -11,7 +11,7 @@ library(cowplot)
 ### https://bit.ly/3JJ6IpK
 
 ### set working directory to data folder
-setwd("/Users/Raghav/Pine Biotech/Research Fellows/Ariana/ISEF 2023/Data Exploration/PCA_unified/")
+setwd("C:/Users/arian/Documents/git/TumorRecurrencePredictor/data")
 
 ### Load the common clinical data
 clin.data.tcga.legacy.comm.all.data <- read_tsv("brca_tcga_clinical_data.tsv")
